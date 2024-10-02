@@ -65,7 +65,6 @@
                 android:id="@+id/name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
                 android:fontFamily="@font/georama_bold"
                 android:text="Name"
                 android:textAlignment="center"
