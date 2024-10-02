@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">iTour</string>
+    <string name="title_page_1">A Vida é muito boa para você não se <b><font color="#003164">aventurar!</font></b></string>
+    <string name="text_page_1">A rotina pode esperar. Permita-se viver novas histórias, conhecer novas culturas e se surpreender com o inesperado. Cada destino é um novo capítulo esperando para ser escrito. \n\nVamos embarcar juntos nessa aventura?</string>
+    <string name="title_page_2">Você não precisa de uma razão para viajar, apenas um <b><font color="#003164">destino!</font></b></string>
+    <string name="text_page_2">Descubra o mundo com a gente\n\nSua próxima aventura começa aqui!</string>
+    <string name="register_or_connect">Ainda não possui conta? <font color="#003164">Cadastre-se</font>\n-\nOu se conecte!</string>
+    <string name="register">Ainda não possui conta? <font color="#003164">Cadastre-se</font></string>
+</resources>
