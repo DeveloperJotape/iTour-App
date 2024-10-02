@@ -45,7 +45,7 @@
             android:layout_width="match_parent"
             android:layout_height="56dp"
             android:hint="www.exemplo.com"
-            android:inputType="text"
+            android:inputType="textEmailAddress"
             android:background="@drawable/form"
             android:layout_marginRight="16dp"
             android:layout_marginLeft="16dp"
