@@ -6,4 +6,5 @@
     <string name="text_page_2">Descubra o mundo com a gente\n\nSua próxima aventura começa aqui!</string>
     <string name="register_or_connect">Ainda não possui conta? <font color="#003164">Cadastre-se</font>\n-\nOu se conecte!</string>
     <string name="register">Ainda não possui conta? <font color="#003164">Cadastre-se</font></string>
+    <string name="connect">Já possui conta? <font color="#003164">Faça o login</font>\n-\nOu se conecte!</string>
 </resources>
