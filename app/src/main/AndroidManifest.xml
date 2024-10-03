@@ -23,10 +23,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".PageOneActivity"
+            android:name=".ScreenOneActivity"
             android:exported="true" />
         <activity
-            android:name=".PageTwoActivity"
+            android:name=".ScreenTwoActivity"
             android:exported="true" />
         <activity
             android:name=".LoginActivity"

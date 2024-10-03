@@ -5,11 +5,11 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PageOneActivity">
+    tools:context=".ScreenOneActivity">
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -25,7 +25,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/travel2" />
+                app:srcCompat="@drawable/travel1" />
 
             <TextView
                 android:id="@+id/textView"
@@ -34,7 +34,7 @@
                 android:layout_marginLeft="16sp"
                 android:layout_marginTop="16dp"
                 android:layout_marginRight="16sp"
-                android:text="@string/title_page_2"
+                android:text="@string/title_page_1"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="36sp"
@@ -48,25 +48,27 @@
                 android:layout_marginLeft="40sp"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="40sp"
-                android:text="@string/text_page_2"
+                android:text="@string/text_page_1"
                 android:textAlignment="center"
                 android:textSize="12sp"
                 android:textStyle="normal"
                 android:fontFamily="@font/georama_light"/>
 
             <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/btnScreenOne"
                 android:layout_width="match_parent"
                 android:layout_height="56dp"
                 android:layout_marginStart="16dp"
-                android:layout_marginTop="32dp"
+                android:layout_marginTop="64dp"
                 android:layout_marginEnd="16dp"
-                android:background="@drawable/button">
+                android:background="@drawable/button"
+                android:onClick="screenTwo">
 
                 <TextView
                     android:id="@+id/textView3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Faça seu login!"
+                    android:text="Vamos Começar!"
                     android:textColor="@color/white"
                     android:textSize="16sp"
                     android:textStyle="normal"
@@ -75,20 +77,8 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
+
             </androidx.constraintlayout.widget.ConstraintLayout>
-
-            <TextView
-                android:id="@+id/textView8"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:text="@string/register"
-                android:textAlignment="center"
-
-                android:textSize="16sp"
-                android:textStyle="normal"
-                android:fontFamily="@font/georama_light"/>
-
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

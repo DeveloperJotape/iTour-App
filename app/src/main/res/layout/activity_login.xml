@@ -107,16 +107,30 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <TextView
-            android:id="@+id/textView8"
+            android:id="@+id/txtToRegister"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/register_or_connect"
+            android:text="@string/register"
             android:textAlignment="center"
             android:textSize="16sp"
             android:fontFamily="@font/georama_light"
             android:paddingLeft="50dp"
             android:paddingRight="50dp"
             android:layout_marginTop="32dp"
+            android:textStyle="normal"
+            android:onClick="screenRegister"
+            />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-\nOu se conecte!"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:fontFamily="@font/georama_light"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
             android:textStyle="normal"
             />
 
