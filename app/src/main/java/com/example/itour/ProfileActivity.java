@@ -5,6 +5,8 @@ import android.os.Bundle;
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+
 public class ProfileActivity extends AppCompatActivity {
 
     @Override
@@ -13,5 +15,6 @@ public class ProfileActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_profile);
+
     }
 }

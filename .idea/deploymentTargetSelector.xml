@@ -8,9 +8,6 @@
       <SelectionState runConfigName="LoginActivity">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="PageTwoActivity">
-        <option name="selectionMode" value="DROPDOWN" />
-      </SelectionState>
       <SelectionState runConfigName="IntroActivity">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
@@ -18,6 +15,9 @@
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
       <SelectionState runConfigName="EditProfileActivity">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
+      <SelectionState runConfigName="ProfileActivityTest">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
     </selectionStates>
