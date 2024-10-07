@@ -41,8 +41,8 @@
             android:fontFamily="@font/georama_light"
             />
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/edTxtName"
+        <EditText
+            android:id="@+id/signup_name"
             android:layout_width="match_parent"
             android:layout_height="56dp"
             android:hint="Nome completo"
@@ -56,8 +56,8 @@
             android:layout_marginTop="32dp"
             />
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/edTxtEmail"
+        <EditText
+            android:id="@+id/signup_email"
             android:layout_width="match_parent"
             android:layout_height="56dp"
             android:hint="www.exemplo.com"
@@ -68,11 +68,11 @@
             android:padding="16dp"
             android:textSize="16sp"
             android:fontFamily="@font/georama_light"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="16dp"
             />
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/edTxtPassword"
+        <EditText
+            android:id="@+id/signup_password"
             android:layout_width="match_parent"
             android:layout_height="56dp"
             android:layout_marginLeft="16dp"
@@ -93,7 +93,7 @@
             />
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/buttonRegister"
+            android:id="@+id/signup_button"
             android:layout_width="match_parent"
             android:layout_height="56dp"
             android:layout_marginStart="16dp"

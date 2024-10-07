@@ -27,8 +27,4 @@ public class ScreenTwoActivity extends AppCompatActivity {
         startActivity(in);
     }
 
-    public void screenRegister(View view) {
-        Intent in = new Intent(ScreenTwoActivity.this, RegisterActivity.class);
-        startActivity(in);
-    }
 }
