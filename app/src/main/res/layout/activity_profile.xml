@@ -38,7 +38,8 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@drawable/back" />
+                    app:srcCompat="@drawable/back"
+                    />
 
                 <TextView
                     android:id="@+id/profile"
@@ -176,12 +177,14 @@
 
 
             <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/edit_profile"
                 android:layout_width="match_parent"
                 android:layout_height="56dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="16dp"
-                android:background="@drawable/light_gray_box">
+                android:background="@drawable/light_gray_box"
+                android:onClick="screenEditProfile">
 
                 <ImageView
                     android:id="@+id/imageView7"
@@ -199,7 +202,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/georama"
                     android:text="Editar Perfil"
-                    android:textColor="@color/green"
+                    android:textColor="@color/black"
                     android:textSize="16sp"
                     android:textStyle="normal"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -245,7 +248,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/georama"
                     android:text="Configurações"
-                    android:textColor="@color/green"
+                    android:textColor="@color/black"
                     android:textSize="16sp"
                     android:textStyle="normal"
                     app:layout_constraintBottom_toBottomOf="parent"
