@@ -124,7 +124,7 @@
                 />
 
             <EditText
-                android:id="@+id/fullName"
+                android:id="@+id/txt_name"
                 android:layout_width="match_parent"
                 android:layout_height="56dp"
                 android:layout_marginLeft="16dp"
@@ -149,7 +149,7 @@
                 />
 
             <EditText
-                android:id="@+id/emailUser"
+                android:id="@+id/txt_email"
                 android:layout_width="match_parent"
                 android:layout_height="56dp"
                 android:layout_marginLeft="16dp"
@@ -174,7 +174,7 @@
                 />
 
             <EditText
-                android:id="@+id/phoneUser"
+                android:id="@+id/txt_phone"
                 android:layout_width="match_parent"
                 android:layout_height="56dp"
                 android:layout_marginLeft="16dp"
@@ -189,6 +189,7 @@
                 android:textSize="16sp" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/btn_update"
                 android:layout_width="match_parent"
                 android:layout_height="56dp"
                 android:layout_marginStart="16dp"

@@ -3,12 +3,13 @@ package com.example.itour;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
 import androidx.activity.EdgeToEdge;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-
 public class RegisterActivity extends AppCompatActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,4 +22,5 @@ public class RegisterActivity extends AppCompatActivity {
         Intent in = new Intent(RegisterActivity.this, LoginActivity.class);
         startActivity(in);
     }
+
 }

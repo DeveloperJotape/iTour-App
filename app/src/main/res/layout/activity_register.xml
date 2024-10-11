@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -42,7 +43,7 @@
             />
 
         <EditText
-            android:id="@+id/signup_name"
+            android:id="@+id/id_txt_name"
             android:layout_width="match_parent"
             android:layout_height="56dp"
             android:hint="Nome completo"
@@ -57,7 +58,7 @@
             />
 
         <EditText
-            android:id="@+id/signup_email"
+            android:id="@+id/id_txt_email"
             android:layout_width="match_parent"
             android:layout_height="56dp"
             android:hint="www.exemplo.com"
@@ -72,7 +73,7 @@
             />
 
         <EditText
-            android:id="@+id/signup_password"
+            android:id="@+id/id_txt_password"
             android:layout_width="match_parent"
             android:layout_height="56dp"
             android:layout_marginLeft="16dp"
@@ -85,21 +86,30 @@
             android:padding="16dp"
             android:textSize="16sp" />
 
-        <ProgressBar
-            android:id="@+id/progrssBar"
-            android:visibility="gone"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            />
+        <EditText
+            android:id="@+id/id_txt_phone"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/form"
+            android:fontFamily="@font/georama_light"
+            android:hint="Telefone"
+            android:inputType="phone"
+            android:padding="16dp"
+            android:textSize="16sp" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/signup_button"
+            android:id="@+id/id_btn_create_user"
             android:layout_width="match_parent"
             android:layout_height="56dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="64dp"
             android:layout_marginEnd="16dp"
-            android:background="@drawable/button">
+            android:onClick="createUser"
+            android:background="@drawable/button"
+            >
 
             <TextView
                 android:id="@+id/txtRegister"

@@ -7,4 +7,5 @@
     <string name="register">Ainda não possui conta? <font color="#003164">Cadastre-se</font></string>
     <string name="connect">Já possui conta? <font color="#003164">Faça o login</font></string>
     <string name="email"><u>exemplo@email.com</u></string>
+    <string name="title_home">Explore o mundo \n<font color="#003164">INTEIRO!</font></string>
 </resources>
