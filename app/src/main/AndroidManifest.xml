@@ -37,6 +37,12 @@
         <activity
             android:name=".EditProfileActivity"
             android:exported="true" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DetailsActivity"
+            android:exported="true" />
 
         <meta-data
             android:name="preloaded_fonts"
